@@ -1,7 +1,9 @@
 package org.ieslosremedios.daw1.prog.ut3.relacion_clases;
 
+import javax.print.attribute.IntegerSyntax;
+
 public class Direccion {
-    private String Numero;
+    private Integer Numero;
     private String Calle;
     private String Ciudad;
     private String Provincia;
@@ -12,17 +14,17 @@ public class Direccion {
     public Direccion () {
     }
     public Direccion(String Numero, String Calle, String Ciudad, String Provincia){
-        this.Numero= Numero;
+        this.Numero= Integer.valueOf(Numero);
         this.Calle= Calle;
         this.Ciudad= Ciudad;
         this.Provincia= Provincia;
     }
 
-    public String getNumero() {
+    public Integer getNumero() {
         return Numero;
     }
 
-    public void setNumero(String numero) {
+    public void setNumero(Integer numero) {
         Numero = numero;
     }
 
