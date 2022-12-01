@@ -13,8 +13,8 @@ public class Direccion {
     }
     public Direccion () {
     }
-    public Direccion(String Numero, String Calle, String Ciudad, String Provincia){
-        this.Numero= Integer.valueOf(Numero);
+    public Direccion(Integer Numero, String Calle, String Ciudad, String Provincia){
+        this.Numero= Numero;
         this.Calle= Calle;
         this.Ciudad= Ciudad;
         this.Provincia= Provincia;
