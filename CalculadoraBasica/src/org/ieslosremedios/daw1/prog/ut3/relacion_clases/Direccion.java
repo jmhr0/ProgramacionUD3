@@ -9,7 +9,7 @@ public class Direccion {
     private String Provincia;
 
     Boolean validar (){
-        return Numero !=null && Calle.isEmpty();
+        return Ciudad !=null && Calle.isEmpty();
     }
     public Direccion () {
     }

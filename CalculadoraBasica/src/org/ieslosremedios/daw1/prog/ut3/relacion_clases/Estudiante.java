@@ -19,7 +19,7 @@ public class Estudiante extends Persona {
     }
 
     public void setEdad(Integer edad) {
-        Edad = edad;
+        this.Edad = edad;
     }
 
     public Double getNotas() {
@@ -27,7 +27,7 @@ public class Estudiante extends Persona {
     }
 
     public void setNotas(Double notas) {
-        Notas = notas;
+        this.Notas = notas;
     }
 
     public Double getNota1() {
