@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2">
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Clase 01/12/2022 añade print de persona mediante metodos en clase persona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Direccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjHerencias/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjHerencias/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/PrincipalAnimalPerro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjHerencias/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Direccion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Direccion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/relacion_clases/Persona.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669902701803</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Clase 01/12/2022 añade print de persona mediante metodos en clase persona">
+      <created>1669977981723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669977981723</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +112,7 @@
     <MESSAGE value="Añadir UML" />
     <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias" />
     <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2" />
+    <MESSAGE value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
   </component>
 </project>
