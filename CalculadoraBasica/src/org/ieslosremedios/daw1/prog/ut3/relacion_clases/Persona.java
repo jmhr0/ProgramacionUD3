@@ -8,10 +8,12 @@ public class Persona {
 
     }
     public Persona(String DNI, String Email) {
-        this.DNI= DNI;
-        this.Email= Email;
+        this.DNI = DNI;
+        this.Email = Email;
     }
-
+    public void Saludar (){
+        System.out.println("Hola, mi DNI es "+ DNI + " Y mi email es " + Email );
+    }
     public String getDNI() {
         return DNI;
     }
@@ -28,7 +30,6 @@ public class Persona {
         Email = email;
     }
 
-    public String Saludar () {
-        return "Hola" + DNI;
+    public void setDireccion(Direccion direccion1) {
     }
 }

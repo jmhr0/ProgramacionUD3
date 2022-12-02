@@ -19,7 +19,6 @@ public class Direccion {
         this.Ciudad= Ciudad;
         this.Provincia= Provincia;
     }
-
     public Integer getNumero() {
         return Numero;
     }

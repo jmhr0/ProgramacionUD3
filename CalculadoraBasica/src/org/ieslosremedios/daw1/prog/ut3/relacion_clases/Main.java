@@ -5,6 +5,7 @@ public class Main {
         // Composicion
         Persona persona1 = new Persona();
         persona1.setDNI("321315661Y");
+        persona1.setEmail("emaildepersona1@hotmail.com");
 
         Direccion direccion1 = new Direccion();
         direccion1.setCalle("Calle nueva");
@@ -12,7 +13,6 @@ public class Main {
         direccion1.setProvincia("Cadiz");
         direccion1.setCiudad("Villamartin");
 
-        persona1.Saludar();
 
         // Herencia
         Estudiante estudiante1 = new Estudiante(13, 7.4);
@@ -22,5 +22,7 @@ public class Main {
         direccion2.setNumero(53);
         direccion2.setProvincia("Cadiz");
         direccion2.setCiudad("Villamartin");
+        persona1.setDireccion(direccion1);
+        persona1.Saludar();
     }
 }
