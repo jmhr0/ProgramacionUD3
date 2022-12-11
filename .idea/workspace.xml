@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +25,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Archivos instituto/ProgramacionUD3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_03/Downloads/Carpeta personal/Programación/Code para Git/ProgramacionUD3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +43,63 @@
       <option name="presentableId" value="Default" />
       <updated>1669874111181</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update de main">
+      <created>1669887259073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669887259073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update de main y Direccion">
+      <created>1669887845654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669887845655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Añadir UML">
+      <created>1669888282133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669888282133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Clase 01/12/2022 añade ejemplo y ejercicio de herencias">
+      <created>1669897981475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669897981475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2">
+      <created>1669902701803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669902701803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Clase 01/12/2022 añade print de persona mediante metodos en clase persona">
+      <created>1669977981723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669977981723</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Clase 01/12/2022 añade print de persona mediante metodos en clase persona">
+      <created>1669982085948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669982085948</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion">
+      <created>1669982118224</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669982118224</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,5 +112,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update de main" />
+    <MESSAGE value="Update de main y Direccion" />
+    <MESSAGE value="Añadir UML" />
+    <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias" />
+    <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2" />
+    <MESSAGE value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
+    <MESSAGE value="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
   </component>
 </project>

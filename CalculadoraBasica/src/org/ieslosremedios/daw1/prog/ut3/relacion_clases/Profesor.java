@@ -21,6 +21,6 @@ public class Profesor extends Persona {
     }
 
     public void setTelefono(Integer telefono) {
-        Telefono = telefono;
+        this.Telefono = telefono;
     }
 }
