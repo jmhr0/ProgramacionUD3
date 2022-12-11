@@ -3,7 +3,7 @@ package org.ieslosremedios.daw1.prog.ut3.Practica3.Ejercicio2;
 //utlizamos la clase persona creada en clase (importamos la libreria) para que Alumno herede de ModeloPersona
 import org.ieslosremedios.daw1.prog.ut3.Modelopersona;
 
-public class Alumno extends Modelopersona {
+public class Alumno extends Modelopersona  {
     protected String nombre;
     protected String apellido1;
     protected String apellido2;
@@ -14,18 +14,18 @@ public class Alumno extends Modelopersona {
     //(ejercicio4) añadimos una relacion de composicion con la clase de la direccion (Direccionpractica3)
     protected Direccionpractica3 direccionpractica3;
 
-    protected Alumno(){}
+    protected Alumno(){
+    }
 
     protected Alumno(String nombre, String apellido1, String apellido2, Integer edad){
-        nombre=this.nombre;
-        apellido1=this.apellido1;
-        apellido2=this.apellido2;
-        edad=this.edad;
-
+        super.nombre=nombre;
+        super.apellido1=apellido1;
+        super.apellido2=apellido2;
+        super.edad=edad;
     }
-    //metodo creado segun ejercicio8
-    Float notaMedia (float a,float b){
-        float notamayor;
+    //metodo creado con la libreria math segun ejercicio8
+    Double notaMedia (double a,double b){
+        double notamayor;
         notamayor=Math.max(a,b);
         return notamayor;
     }

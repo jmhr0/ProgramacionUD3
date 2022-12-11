@@ -3,10 +3,10 @@ package org.ieslosremedios.daw1.prog.ut3;
 //Get,Set,Metodos y clases
 public class Modelopersona {
     //poner privates
-    private String nombre;
-    private String apellido1;
-    private String apellido2;
-    private int edad;
+    protected String nombre;
+    protected String apellido1;
+    protected String apellido2;
+    protected int edad;
 
     Modelopersona () {
     }
