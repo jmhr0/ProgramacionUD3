@@ -1,13 +1,15 @@
 package org.ieslosremedios.daw1.prog.ut3.Practica3.Ejercicio2;
 
+//utlizamos la clase persona creada en clase (importamos la libreria) para que Alumno herede de ModeloPersona
+import org.ieslosremedios.daw1.prog.ut3.Modelopersona;
 
-public class Alumno{
+public class Alumno extends Modelopersona {
     protected String nombre;
     protected String apellido1;
     protected String apellido2;
     protected Integer edad;
     protected boolean repetidor;
-    protected float NotaMedia;
+    protected double NotaMedia;
     protected String correoElectronico;
     //(ejercicio4) añadimos una relacion de composicion con la clase de la direccion (Direccionpractica3)
     protected Direccionpractica3 direccionpractica3;
@@ -68,12 +70,12 @@ public class Alumno{
         this.repetidor = repetidor;
     }
 
-    public float getNotaMedia() {
+    public double getNotaMedia() {
         return NotaMedia;
     }
 
-    public void setNotaMedia(float notaMedia) {
-        NotaMedia = notaMedia;
+    public void setNotaMedia(double notaMedia) {
+        this.NotaMedia = notaMedia;
     }
 
     public String getCorreoElectronico() {

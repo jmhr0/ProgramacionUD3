@@ -9,8 +9,6 @@ public class Modelopersona {
     private int edad;
 
     Modelopersona () {
-    nombre = "Anonimo";
-
     }
      Modelopersona (String nombre, String apellido1) {
          this.nombre=nombre;
