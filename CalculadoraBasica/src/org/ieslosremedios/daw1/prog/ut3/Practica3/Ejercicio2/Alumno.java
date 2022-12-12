@@ -24,7 +24,7 @@ public class Alumno extends Modelopersona  {
         super.edad=edad;
     }
     //metodo creado con la libreria math segun ejercicio8
-    Double notaMedia (double a,double b){
+    static Double notaMedia (double a,double b){
         double notamayor;
         notamayor=Math.max(a,b);
         return notamayor;
