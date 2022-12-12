@@ -1,0 +1,97 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bdca7573-00f4-46bd-9a71-8965070dc94e\" name=\"Changes\" comment=\"Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion\">\r\n      <change afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Hija.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Madre.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/A.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/B.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/C.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/PrincipalABC.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/PrincipalABC.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IIfeHKpg8b86yU4crFPQsAZdVV\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/1DAW_2223_03/Downloads/Carpeta personal/Programación/Code para Git/ProgramacionUD3\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bdca7573-00f4-46bd-9a71-8965070dc94e\" name=\"Changes\" comment=\"\" />\r\n      <created>1669874111181</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669874111181</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Update de main\">\r\n      <created>1669887259073</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669887259073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Update de main y Direccion\">\r\n      <created>1669887845654</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669887845655</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Añadir UML\">\r\n      <created>1669888282133</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669888282133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias\">\r\n      <created>1669897981475</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669897981475</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2\">\r\n      <created>1669902701803</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669902701803</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Clase 01/12/2022 añade print de persona mediante metodos en clase persona\">\r\n      <created>1669977981723</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669977981723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Clase 01/12/2022 añade print de persona mediante metodos en clase persona\">\r\n      <created>1669982085948</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669982085948</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion\">\r\n      <created>1669982118224</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669982118224</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Update de main\" />\r\n    <MESSAGE value=\"Update de main y Direccion\" />\r\n    <MESSAGE value=\"Añadir UML\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 añade print de persona mediante metodos en clase persona\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8c11e27773c0de8dcdd08fa39139105c64506160)
++++ b/.idea/workspace.xml	(date 1669988649505)
+@@ -1,15 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion">
+-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Hija.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Madre.java" afterDir="false" />
++    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Clase 01/12/2022 Act 3.3 Programacion">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/A.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/B.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/C.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/PrincipalABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/PrincipalABC.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Perro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Perro.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/PrincipalAnimalPerro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/PrincipalAnimalPerro.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -108,7 +106,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669982118224</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Clase 01/12/2022 Act 3.3 Programacion">
++      <created>1669982834617</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1669982834617</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -130,6 +135,7 @@
+     <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2" />
+     <MESSAGE value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
+     <MESSAGE value="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
++    <MESSAGE value="Clase 01/12/2022 Act 3.3 Programacion" />
++    <option name="LAST_COMMIT_MESSAGE" value="Clase 01/12/2022 Act 3.3 Programacion" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Actividad32Herencia;\r\n\r\npublic class Animal {\r\n    String nombre;\r\n    Animal () {\r\n    }\r\n    Animal (String nombre) {\r\n        this.nombre = nombre;\r\n    }\r\n    void imprime () {\r\n        System.out.print(\"¡Guau! me llamo \" + nombre);\r\n    }\r\n\r\n    public String getNombre() {\r\n        return nombre;\r\n    }\r\n\r\n    public void setNombre(String nombre) {\r\n        this.nombre = nombre;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java	(revision 8c11e27773c0de8dcdd08fa39139105c64506160)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.java	(date 1669983798159)
+@@ -8,7 +8,9 @@
+         this.nombre = nombre;
+     }
+     void imprime () {
++        if (nombre!=null)
+         System.out.print("¡Guau! me llamo " + nombre);
++
+     }
+ 
+     public String getNombre() {
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Actividad33Herencia;\r\n\r\npublic class Abuela {\r\n    void imprimePorPartes () {\r\n        System.out.println(\"verde\");\r\n    }\r\n    void azul () {\r\n        System.out.println(\"azul\");\r\n    }\r\n    void rojo () {\r\n        System.out.println(\"rojo\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java	(revision 8c11e27773c0de8dcdd08fa39139105c64506160)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java	(date 1669984287642)
+@@ -4,7 +4,7 @@
+     void imprimePorPartes () {
+         System.out.println("verde");
+     }
+-    void azul () {
++    String azul () {
+         System.out.println("azul");
+     }
+     void rojo () {

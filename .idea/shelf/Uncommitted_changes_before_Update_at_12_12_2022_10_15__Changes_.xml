@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_12_2022_10_15_[Changes]" date="1670836546977" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_10_15_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/12/2022 10:15 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/C.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/PrincipalAnimalPerro.class" />
+    <option name="AFTER_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/PrincipalAnimalPerro.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_10_15_[Changes]/PrincipalAnimalPerro.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/A.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.class" />
+    <option name="AFTER_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_10_15_[Changes]/Animal.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/B.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Perro.class" />
+    <option name="AFTER_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Perro.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_10_15_[Changes]/Perro.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/PrincipalABC.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
