@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="correccion ejercicio 8 practica 3 (hace el metodo static)">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Hija.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Hija.java" afterDir="false" />
-    </list>
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="commit ejercicios en clase 12/12/2022" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670838026819</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit ejercicios en clase 12/12/2022">
+      <created>1670846606151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670846606151</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +136,7 @@
     <MESSAGE value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
     <MESSAGE value="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
     <MESSAGE value="correccion ejercicio 8 practica 3 (hace el metodo static)" />
-    <option name="LAST_COMMIT_MESSAGE" value="correccion ejercicio 8 practica 3 (hace el metodo static)" />
+    <MESSAGE value="commit ejercicios en clase 12/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit ejercicios en clase 12/12/2022" />
   </component>
 </project>
