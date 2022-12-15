@@ -29,6 +29,7 @@ public class Main {
         a1.setCorreoElectronico("Correodelalumno1@gmail.com");
         a1.setRepetidor(false);
         a1.setCasa(c1);
+        a1.setDireccionpractica3(d1);
         System.out.println("Me llamo " + a1.getNombre() + " " + a1.getApellido1() + " " + a1.getApellido2() + " y tengo " + a1.getEdad());
 
         System.out.println("Con calificacion energetica de " + c1.getLetra());
@@ -43,6 +44,7 @@ public class Main {
         a2.setCorreoElectronico("Correodelalumno2@gmail.com");
         a2.setRepetidor(true);
         a2.setCasa(c1);
+        a2.setDireccionpractica3(d1);
 
         //Ejercicio 8, compara las dos notas medias y da la mas alta
         System.out.println(a2.notaMedia(a1.getNotaMedia(), a2.getNotaMedia()));

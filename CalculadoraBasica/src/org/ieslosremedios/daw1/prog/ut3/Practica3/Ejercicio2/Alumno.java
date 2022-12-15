@@ -105,4 +105,12 @@ public class Alumno extends Persona {
     public void setCasa(Casa casa) {
         this.casa = casa;
     }
+
+    public Direccionpractica3 getDireccionpractica3() {
+        return direccionpractica3;
+    }
+
+    public void setDireccionpractica3(Direccionpractica3 direccionpractica3) {
+        this.direccionpractica3 = direccionpractica3;
+    }
 }
