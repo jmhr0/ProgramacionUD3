@@ -1,10 +1,6 @@
 package org.ieslosremedios.daw1.prog.ut3.examen;
 
 //enumerado color en otra clase diferente a la de equipo con 5 colores
-enum Color {
-    Verde,Rojo,Azul,Morado,Amarillo
-}
-
 public class Equipo {
     private String nombre;
     private Color color;
@@ -12,15 +8,18 @@ public class Equipo {
     private Integer partidosPerdidos;
     private Integer partidosEmpatados;
     private Integer calidad;
-    private Entrenador entrenador;
 
     Equipo (){
     }
-    Equipo(Color color, String nombre){
+    public Equipo(Color color, String nombre){
         this.color=color;
         this.nombre=nombre;
+        this.partidosEmpatados=0;
+        this.partidosPerdidos=0;
+        this.partidosGanados=0;
     }
     Equipo(Color color, String nombre, Integer partidosPerdidos, Integer partidosGanados, Integer partidosEmpatados){
+        this(Color, nombre);
         this.color=color;
         this.nombre=nombre;
         this.partidosGanados=partidosGanados;

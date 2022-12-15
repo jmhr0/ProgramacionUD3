@@ -6,6 +6,7 @@ public class Entrenador extends Persona {
     private Double sueldo;
     private Persona persona;
     private static String Campeonato="Mundial";
+    private Equipo equipo;
 
     Entrenador(String email){
 
