@@ -1,17 +1,20 @@
 package org.ieslosremedios.daw1.prog.ut3.Practica3.Ejercicio2;
 
 public class Direccionpractica3 {
-    protected String calle = "Los Naranjos";
-    protected Integer numero = 47;
-    protected String piso = "3ºA";
-    protected Integer codigoPostal = 11660;
-    protected String poblacion = "Ubrique";
-    protected String localidad = "(Cádiz)";
+    //Ejercicio 4, clase para almacenar direcciones
+    private String calle;
+    private Integer numero;
+    private String piso;
+    private Integer codigoPostal;
+    private String poblacion;
+    private String localidad;
+    //Ejercicio 6, constructor por defecto para que siga habiendo un constructor sin parametros
 
-    protected Direccionpractica3 (){
+    public Direccionpractica3 (){
 
     }
-    protected Direccionpractica3 (String calle, Integer numero, String piso, Integer codigoPostal, String poblacion, String localidad){
+    //Ejercicio 6, metodo para imprimir la direccion completa
+    public Direccionpractica3 (String calle, Integer numero, String piso, Integer codigoPostal, String poblacion, String localidad){
         this.calle=calle;
         this.numero=numero;
         this.piso=piso;
@@ -19,18 +22,19 @@ public class Direccionpractica3 {
         this.poblacion=poblacion;
         this.localidad=localidad;
     }
-    protected Direccionpractica3 (String calle, String localidad){
+    //Ejercicio 6, sobrecarga de varios constructores para poder hacer direcciones sin provincias o codigo postal
+    public Direccionpractica3 (String calle, String localidad){
         this.calle=calle;
         this.localidad=localidad;
     }
-    protected Direccionpractica3 (String calle, Integer numero, String piso, String poblacion, String localidad) {
+    public Direccionpractica3 (String calle, Integer numero, String piso, String poblacion, String localidad) {
         this.calle = calle;
         this.numero = numero;
         this.piso = piso;
         this.poblacion = poblacion;
         this.localidad = localidad;
     }
-    protected Direccionpractica3 (String calle, Integer numero, String piso, String poblacion) {
+    public Direccionpractica3 (String calle, Integer numero, String piso, String poblacion) {
         this.calle = calle;
         this.numero = numero;
         this.piso = piso;
