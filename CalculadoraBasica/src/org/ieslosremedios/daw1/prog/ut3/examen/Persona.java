@@ -18,9 +18,6 @@ public class Persona {
     protected void saludar(){
 
     }
-    protected saludar(){
-        return "Hola, me llamo " + persona;
-    }
 
     public String getNombre() {
         return nombre;

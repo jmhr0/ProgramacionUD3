@@ -5,6 +5,6 @@ public class Principal {
 
     }
     public static Integer jugar (Equipo a, Equipo b, Integer dificultad){
-        if ()
+        return null;
     }
 }
