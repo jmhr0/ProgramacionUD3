@@ -19,7 +19,7 @@ public class Equipo {
         this.partidosGanados=0;
     }
     Equipo(Color color, String nombre, Integer partidosPerdidos, Integer partidosGanados, Integer partidosEmpatados){
-        this(nombre);
+        //TODO this(nombre);
         this.color=color;
         this.nombre=nombre;
         this.partidosGanados=partidosGanados;

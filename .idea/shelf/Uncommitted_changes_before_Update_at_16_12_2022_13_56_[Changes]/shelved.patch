@@ -1,0 +1,309 @@
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Abstractos;\r\n\r\npublic abstract class Animal {\r\n    Boolean mamifero;\r\n    abstract void getNumPatas();\r\n    boolean ismamifero(){\r\n        return mamifero;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java	(date 1671192785239)
+@@ -1,10 +1,14 @@
+ package org.ieslosremedios.daw1.prog.ut3.Abstractos;
+ 
+ public abstract class Animal {
+-    Boolean mamifero;
++    final Boolean mamifero=true;
++    void Adormir (){
++        System.out.println("ZzzZzZ");
++    }
+     abstract void getNumPatas();
+     boolean ismamifero(){
+         return mamifero;
+     }
++    abstract String hablar ();
+ 
+ }
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Abstractos;\r\n\r\npublic class MainAnimal {\r\n    Animal a = new Perro();\r\n    Integer a.\r\n    Animal b = new Gato();\r\n    Animal c = new Humano()\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java	(date 1671192785219)
+@@ -1,8 +1,17 @@
+ package org.ieslosremedios.daw1.prog.ut3.Abstractos;
+ 
+ public class MainAnimal {
+-    Animal a = new Perro();
+-    Integer a.
+-    Animal b = new Gato();
+-    Animal c = new Humano()
++    public static void main(String[] args) {
++        Perro perro1 = new Perro();
++        perro1.hablar();
++        perro1.Adormir();
++        Gato gato1 = new Gato();
++        gato1.hablar();
++        perro1.Adormir();
++        Humano humano1 = new Humano();
++        humano1.hablar();
++        humano1.Adormir();
++    }
++
++
+ }
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Abstractos;\r\n\r\npublic class Gato extends Animal {\r\n    final static Integer NUMPATA = 4;\r\n    @Override\r\n    void getNumPatas() {\r\n        return NUMPATA;\r\n    }\r\n\r\n    @Override\r\n    boolean ismamifero() {\r\n        return super.ismamifero();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java	(date 1671193053268)
+@@ -1,14 +1,19 @@
+ package org.ieslosremedios.daw1.prog.ut3.Abstractos;
+ 
+ public class Gato extends Animal {
+-    final static Integer NUMPATA = 4;
++    static Integer NUMPATA = 4;
+     @Override
+     void getNumPatas() {
+-        return NUMPATA;
+-    }
+ 
++    }
+     @Override
+     boolean ismamifero() {
+         return super.ismamifero();
+     }
++
++    @Override
++    String hablar (){
++        String hablar = "Miau";
++        return hablar;
++    }
+ }
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Abstractos;\r\n\r\npublic class Humano extends Animal {\r\n    final static Integer numpatas = 2;\r\n    @Override\r\n    void getNumPatas() {\r\n        return this.numpatas;\r\n    }\r\n\r\n    @Override\r\n    boolean ismamifero() {\r\n        return super.ismamifero();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java	(date 1671193053259)
+@@ -1,14 +1,18 @@
+ package org.ieslosremedios.daw1.prog.ut3.Abstractos;
+ 
+ public class Humano extends Animal {
+-    final static Integer numpatas = 2;
++    static Integer numpatas = 2;
+     @Override
+-    void getNumPatas() {
+-        return this.numpatas;
++    void getNumPatas(){
+     }
+ 
+     @Override
+     boolean ismamifero() {
+         return super.ismamifero();
+     }
++
++    String hablar (){
++        String hola = "hola";
++        return hola;
++    }
+ }
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.Abstractos;\r\n\r\npublic class Perro extends Animal {\r\n    final static Integer NUMPATA = 4;\r\n    @Override\r\n    void getNumPatas() {\r\n    }\r\n\r\n    @Override\r\n    boolean ismamifero() {\r\n        return super.ismamifero();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java	(date 1671192785229)
+@@ -1,13 +1,22 @@
+ package org.ieslosremedios.daw1.prog.ut3.Abstractos;
+ 
+ public class Perro extends Animal {
+-    final static Integer NUMPATA = 4;
++    static Integer NUMPATA = 4;
+     @Override
+     void getNumPatas() {
++
+     }
+ 
+     @Override
+     boolean ismamifero() {
+         return super.ismamifero();
+     }
++
++    @Override
++    String hablar() {
++        String hablar="guau";
++        return hablar;
++    }
++
++
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bdca7573-00f4-46bd-9a71-8965070dc94e\" name=\"Changes\" comment=\"correccion examen 15/12/2022\">\r\n      <change afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Color.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Entrenador.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Entrenador.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IIfeHKpg8b86yU4crFPQsAZdVV\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_03/Documents/ProgramaciónUD3&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bdca7573-00f4-46bd-9a71-8965070dc94e\" name=\"Changes\" comment=\"\" />\r\n      <created>1669874111181</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669874111181</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Update de main\">\r\n      <created>1669887259073</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669887259073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Update de main y Direccion\">\r\n      <created>1669887845654</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669887845655</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Añadir UML\">\r\n      <created>1669888282133</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669888282133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias\">\r\n      <created>1669897981475</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669897981475</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2\">\r\n      <created>1669902701803</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669902701803</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Clase 01/12/2022 añade print de persona mediante metodos en clase persona\">\r\n      <created>1669977981723</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669977981723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Clase 01/12/2022 añade print de persona mediante metodos en clase persona\">\r\n      <created>1669982085948</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669982085948</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion\">\r\n      <created>1669982118224</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669982118224</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"correccion ejercicio 8 practica 3 (hace el metodo static)\">\r\n      <created>1670838026819</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670838026819</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"commit ejercicios en clase 12/12/2022\">\r\n      <created>1670846606151</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670846606151</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"commit ejercicios en clase 12/12/2022\">\r\n      <created>1670853542381</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670853542381</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"correccion examen 15/12/2022\">\r\n      <created>1671107551470</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1671107551470</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Update de main\" />\r\n    <MESSAGE value=\"Update de main y Direccion\" />\r\n    <MESSAGE value=\"Añadir UML\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 añade print de persona mediante metodos en clase persona\" />\r\n    <MESSAGE value=\"Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion\" />\r\n    <MESSAGE value=\"correccion ejercicio 8 practica 3 (hace el metodo static)\" />\r\n    <MESSAGE value=\"commit ejercicios en clase 12/12/2022\" />\r\n    <MESSAGE value=\"correccion examen 15/12/2022\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"correccion examen 15/12/2022\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/.idea/workspace.xml	(date 1671193476591)
+@@ -1,11 +1,20 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="correccion examen 15/12/2022">
+-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Color.java" afterDir="false" />
++    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="correccion examen2 15/12/2022">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Entrenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Entrenador.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Animal.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Gato.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Humano.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/MainAnimal.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Abstractos/Perro.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/A.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/B.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/C.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/EjemploHerencias/PrincipalABC.class" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -37,13 +46,33 @@
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_03/Documents/ProgramaciónUD3&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_03/Downloads/Act1&amp;2EDIntellij/Actividad_02_UD3_ED&quot;,
+     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+   }
+ }</component>
++  <component name="RunManager">
++    <configuration name="MainAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.ieslosremedios.daw1.prog.ut3.Abstractos.MainAnimal" />
++      <module name="ProgramacionUD3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.ieslosremedios.daw1.prog.ut3.Abstractos.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.MainAnimal" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -137,7 +166,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1671107551470</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="correccion examen2 15/12/2022">
++      <created>1671112554642</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1671112554642</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -162,6 +198,7 @@
+     <MESSAGE value="correccion ejercicio 8 practica 3 (hace el metodo static)" />
+     <MESSAGE value="commit ejercicios en clase 12/12/2022" />
+     <MESSAGE value="correccion examen 15/12/2022" />
+-    <option name="LAST_COMMIT_MESSAGE" value="correccion examen 15/12/2022" />
++    <MESSAGE value="correccion examen2 15/12/2022" />
++    <option name="LAST_COMMIT_MESSAGE" value="correccion examen2 15/12/2022" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.examen;\r\n\r\npublic class Principal {\r\n    public static void main (String [] args){\r\n\r\n    }\r\n    public static Integer jugar (Equipo a, Equipo b, Integer dificultad){\r\n        if ()\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Principal.java	(date 1671192869102)
+@@ -5,6 +5,6 @@
+ 
+     }
+     public static Integer jugar (Equipo a, Equipo b, Integer dificultad){
+-        if ()
++        return null;
+     }
+ }
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.examen;\r\n\r\npublic class Persona {\r\n    private String nombre;\r\n    private String dni;\r\n    private Integer edad;\r\n    private Boolean sexo;\r\n    public Entrenador entrenador;\r\n\r\n    Persona (){\r\n\r\n    }\r\n\r\n    Persona (String nombre){\r\n        this.nombre=nombre;\r\n    }\r\n\r\n    protected void saludar(){\r\n\r\n    }\r\n    protected saludar(){\r\n        return \"Hola, me llamo \" + persona;\r\n    }\r\n\r\n    public String getNombre() {\r\n        return nombre;\r\n    }\r\n\r\n    public void setNombre(String nombre) {\r\n        this.nombre = nombre;\r\n    }\r\n\r\n    public String getDni() {\r\n        return dni;\r\n    }\r\n\r\n    public void setDni(String dni) {\r\n        this.dni = dni;\r\n    }\r\n\r\n    public Integer getEdad() {\r\n        return edad;\r\n    }\r\n\r\n    public void setEdad(Integer edad) {\r\n        this.edad = edad;\r\n    }\r\n\r\n    public Boolean getSexo() {\r\n        return sexo;\r\n    }\r\n\r\n    public void setSexo(Boolean sexo) {\r\n        this.sexo = sexo;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Persona.java	(date 1671192869111)
+@@ -18,9 +18,6 @@
+     protected void saludar(){
+ 
+     }
+-    protected saludar(){
+-        return "Hola, me llamo " + persona;
+-    }
+ 
+     public String getNombre() {
+         return nombre;
+Index: CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.ieslosremedios.daw1.prog.ut3.examen;\r\n\r\n//enumerado color en otra clase diferente a la de equipo con 5 colores\r\npublic class Equipo {\r\n    private String nombre;\r\n    private Color color;\r\n    private Integer partidosGanados;\r\n    private Integer partidosPerdidos;\r\n    private Integer partidosEmpatados;\r\n    private Integer calidad;\r\n\r\n    Equipo (){\r\n    }\r\n    public Equipo(Color color, String nombre){\r\n        this.color=color;\r\n        this.nombre=nombre;\r\n        this.partidosEmpatados=0;\r\n        this.partidosPerdidos=0;\r\n        this.partidosGanados=0;\r\n    }\r\n    Equipo(Color color, String nombre, Integer partidosPerdidos, Integer partidosGanados, Integer partidosEmpatados){\r\n        this(Color, nombre);\r\n        this.color=color;\r\n        this.nombre=nombre;\r\n        this.partidosGanados=partidosGanados;\r\n        this.partidosPerdidos=partidosPerdidos;\r\n        this.partidosEmpatados=partidosEmpatados;\r\n    }\r\n\r\n    void actualizarCalidad(){\r\n        calidad=partidosGanados * 2 + partidosEmpatados - partidosPerdidos;\r\n        if (calidad>=100)\r\n            System.out.println();\r\n        if (calidad<=0)\r\n            System.out.println();\r\n\r\n        else System.out.println(calidad);\r\n    }\r\n\r\n    public String getNombre() {\r\n        return nombre;\r\n    }\r\n\r\n    public void setNombre(String nombre) {\r\n        this.nombre = nombre;\r\n    }\r\n\r\n    public Color getColor() {\r\n        return color;\r\n    }\r\n\r\n    public void setColor(Color color) {\r\n        this.color = color;\r\n    }\r\n\r\n    public Integer getPartidosGanados() {\r\n        return partidosGanados;\r\n    }\r\n\r\n    public void setPartidosGanados(Integer partidosGanados) {\r\n        this.partidosGanados = partidosGanados;\r\n    }\r\n\r\n    public Integer getPartidosPerdidos() {\r\n        return partidosPerdidos;\r\n    }\r\n\r\n    public void setPartidosPerdidos(Integer partidosPerdidos) {\r\n        this.partidosPerdidos = partidosPerdidos;\r\n    }\r\n\r\n    public Integer getPartidosEmpatados() {\r\n        return partidosEmpatados;\r\n    }\r\n\r\n    public void setPartidosEmpatados(Integer partidosEmpatados) {\r\n        this.partidosEmpatados = partidosEmpatados;\r\n    }\r\n\r\n    public Integer getCalidad() {\r\n        return calidad;\r\n    }\r\n\r\n    public void setCalidad(Integer calidad) {\r\n        this.calidad = calidad;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java
+--- a/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java	(revision 1dbaa6989807db40682473cc43a2a382a659b164)
++++ b/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/examen/Equipo.java	(date 1671193117872)
+@@ -19,7 +19,7 @@
+         this.partidosGanados=0;
+     }
+     Equipo(Color color, String nombre, Integer partidosPerdidos, Integer partidosGanados, Integer partidosEmpatados){
+-        this(Color, nombre);
++        this(nombre);
+         this.color=color;
+         this.nombre=nombre;
+         this.partidosGanados=partidosGanados;
