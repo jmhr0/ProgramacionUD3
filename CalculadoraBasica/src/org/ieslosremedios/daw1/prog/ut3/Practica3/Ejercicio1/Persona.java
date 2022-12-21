@@ -6,7 +6,7 @@ public class Persona {
     private String apellido2;
     private Integer edad;
 
-    Persona(){
+    protected Persona(){
 
     }
     public Persona (String nombre, String apellido1, String apellido2, Integer edad){

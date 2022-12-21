@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut3.Interfaz;
+package org.ieslosremedios.daw1.prog.ut3.ejemplointerfaz;
 
 public class ImplementacionB implements Interfaz {
     public void metodo(){
