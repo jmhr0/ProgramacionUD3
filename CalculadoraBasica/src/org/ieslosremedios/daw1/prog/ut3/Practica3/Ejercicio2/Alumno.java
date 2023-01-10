@@ -25,7 +25,6 @@ public class Alumno extends Persona {
     //Al heredar los campos de persona el constructor por defecto de alumno tendría un error porque daría información redundante
 
     Alumno(){
-        super();
 
     }
     //Ejercicio 2, Constructor con parametros nombre, apellidos y edad
