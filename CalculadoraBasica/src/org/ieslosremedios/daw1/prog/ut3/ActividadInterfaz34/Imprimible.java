@@ -1,6 +1,6 @@
 package org.ieslosremedios.daw1.prog.ut3.ActividadInterfaz34;
 
-public interface Imprimible {
+public interface Imprimible extends Editable,Borrable {
     //2;Crear una constante en la interfaz Imprimible que sea TEXTO_POR_DEFECTO = “Página de prueba”.
     /*
     Especificamos que sera una constante mediante la palabra reservada "final" aunque de manera predeterminada ya lo sería en caso de no añadir

@@ -19,7 +19,7 @@ public class TestImpresiones {
         Impresora Impresoratest = new Impresora();
         Impresoratest.imprime(); //contenido por defecto
         Impresoratest.borrar(); //contenido al borrar
-        Impresoratest.establecerContenido("Contenido al ser establecido un valor");
+        Impresoratest.establecerContenido("Esto es un test");
 
 
         System.out.println("----");
@@ -28,6 +28,6 @@ public class TestImpresiones {
         Consola Consolatest = new Consola();
         Consolatest.imprime(); //contenido por defecto
         Consolatest.borrar(); //contenido al borrar
-        Consolatest.establecerContenido("Contenido al ser establecido un valor");
+        Consolatest.establecerContenido("Esto es un test");
     }
 }

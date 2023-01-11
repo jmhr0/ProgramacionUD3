@@ -4,14 +4,14 @@ public class Consola implements Imprimible,Borrable {
     private String pantalla="$";
 
     public void imprime() {
-        System.out.printf("%S", pantalla);
+        System.out.printf("%S%n", pantalla);
     }
     public void establecerContenido(String contenido) {
-        System.out.printf("%S", contenido + "" + pantalla);
+        pantalla= pantalla + "" + contenido;
     }
 
 
     public void borrar() {
-        System.out.println("***************************");
+        System.out.println("**********************");
     }
 }
