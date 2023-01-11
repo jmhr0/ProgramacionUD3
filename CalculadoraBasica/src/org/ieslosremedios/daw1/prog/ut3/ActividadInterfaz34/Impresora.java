@@ -11,11 +11,11 @@ public class Impresora implements Imprimible,Borrable {
     }
 
     public void establecerContenido(String contenido) {
-        System.out.println(contenido);
+        pagina=contenido;
     }
 
 
     public void borrar() {
-        System.out.println(" ");
+        pagina="";
     }
 }

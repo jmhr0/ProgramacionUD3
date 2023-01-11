@@ -7,27 +7,27 @@ public class TestImpresiones {
          igual? ¿Por qué? Contestar en un comentario
 
 
-         Imprimible Impresora1 = new Impresora()
-         Imprimible Consola1 = new Consola()
-
-
-         No funciona, ya que el método "borrar" no es parte de "Imprimible" , así que los nuevos constructores que hemos creado,
-         en caso de ser de tipo Imprimibles no tendrían acceso al metodo y no lo podrían realizar, se podría solucionar
-         y simplicar si hubiesemos usado solo una interfaz que tuviese los metodos "imprime" y "borrar"
+         Si funciona, ya que el método "borrar" es parte de "Imprimible" por la herencia hecha en el ejercicio anterior
+         así que, "Imprimible" ahora tendra acceso a los metodos de "Borrable" y "Editable", con esto, los objetos creados
+         de tipo "Imprimible" podrán usar el metodo borrar de "Borrable" (que seria el unico problema en caso de no haber herencia)
          */
 
-        Impresora Impresoratest = new Impresora();
+        Imprimible Impresoratest = new Impresora();
         Impresoratest.imprime(); //contenido por defecto
         Impresoratest.borrar(); //contenido al borrar
+        Impresoratest.imprime();
         Impresoratest.establecerContenido("Esto es un test");
+        Impresoratest.imprime();
 
 
         System.out.println("----");
 
 
-        Consola Consolatest = new Consola();
+        Imprimible Consolatest = new Consola();
         Consolatest.imprime(); //contenido por defecto
         Consolatest.borrar(); //contenido al borrar
+        Consolatest.imprime();
         Consolatest.establecerContenido("Esto es un test");
+        Consolatest.imprime();
     }
 }
