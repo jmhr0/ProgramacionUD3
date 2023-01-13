@@ -5,6 +5,7 @@ public class Paloma extends Animal implements Flyable {
     public void fly() {
         System.out.println("Voy volando");
     }
+    @Override
     public void speak(){
         System.out.println("Ruu");
     }
