@@ -16,6 +16,7 @@ public class Act41_Arrays_Y_Metodos {
 
         //4Invoca el método "m" desde main enviando "x" como argumento. Comprueba si la variable "x" cambia de valor después de ejecutar el método.
         // Para eso puedes imprimir las variables antes de invocar al método y después.
+        //Impresion de variables antes de invocar
         System.out.println(x); //Imprimimos int x
         System.out.println(s); //Imprimimos String s
         System.out.println(a[0]);
@@ -26,6 +27,7 @@ public class Act41_Arrays_Y_Metodos {
         m(x,s); //invocamos el metodo que pone en mayuscula el texto
         m(x,s,a); //invocamos el metodo que suma 1 a las posiciones descritas en el array
         m(2, a);
+        //Impresion de variables despues de invocar
         System.out.println(s); //volvemos a imprimir s, el valor no cambia
         System.out.println(x); //volvemos a imprimir x, el valor no cambia
         System.out.println(a[0]);
@@ -48,6 +50,10 @@ public class Act41_Arrays_Y_Metodos {
         a[2] = (a[2] + 1); //aumenta en 1 la posicion INTERMEDIA
         a[4] = (a[4] + 1); //aumenta en 1 la ULTIMA posicion
     }
+    //7 Cambiamos el método (¿o seguimos sobrecargando?) para que devuelva un array bidimensional de tipo int
+    // formando una matriz de N x M, donde N ese el tamaño del array de Doubles del parámetro de entrada y M es igual a 2.
+    // Vamos a copiar el array de entrada al de salida:
+    // para cada posición del array de salida guardaremos primero la parte entera correspondiente a la misma posición del array de entrada y la parte decimal después.
     public static void m(int n, Double[] a ) {
         int arrayInt[][] = new int [n] [a.length];
     }
