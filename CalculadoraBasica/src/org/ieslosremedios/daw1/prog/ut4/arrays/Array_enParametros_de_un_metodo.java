@@ -11,7 +11,7 @@ public class Array_enParametros_de_un_metodo {
 
         int [][] datosRetorno = metodo (x,y,z, arrayDeEntrada);
 
-        System.out.println(metodo());
+        System.out.println(metodo(x,y,z,arrayDeEntrada));
     }
     static int[][] metodo(int x, int y, String z, Double[] arrayDeEntrada){
         x=3;

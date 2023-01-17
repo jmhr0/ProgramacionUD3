@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="correccion practica 3  15/12/2022">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/ActividadInterfaz34/Borrable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/ActividadInterfaz34/Consola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/ActividadInterfaz34/Editable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/ActividadInterfaz34/Impresora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/ActividadInterfaz34/Imprimible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/ActividadInterfaz34/TestImpresiones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_12_2022_13_56__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_12_2022_13_56__Changes_.xml" afterDir="false" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Actividad 3.4 de interfaces">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act41_Arrays_Y_Metodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProgramacionUD3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_12_2022_13_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_12_2022_13_56__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Practica3/Ejercicio2/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut3/Practica3/Ejercicio2/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut2/HolaMundoUT3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/Perro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad32Herencia/PrincipalAnimalPerro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Abuela.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Hija.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/Madre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Actividad33Herencia/PrincipalABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/CalculadoraBasica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Dosnumaleatorios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Main$Operacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/MainPersona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Modelopersona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Practica3/Ejercicio1/Casa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Practica3/Ejercicio2/Direccionpractica3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Array_enParametros_de_un_metodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Array_enParametros_de_un_metodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Practica3/Ejercicio1/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut3/Practica3/Ejercicio1/Persona.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -167,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671145479998</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Actividad 3.4 de interfaces">
+      <created>1673391494927</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673391494927</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +181,7 @@
     <MESSAGE value="commit ejercicios en clase 12/12/2022" />
     <MESSAGE value="correccion examen 15/12/2022" />
     <MESSAGE value="correccion practica 3  15/12/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="correccion practica 3  15/12/2022" />
+    <MESSAGE value="Actividad 3.4 de interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 3.4 de interfaces" />
   </component>
 </project>
