@@ -3,7 +3,7 @@ package org.ieslosremedios.daw1.prog.ut4.arrays.recorrerUnArray;
 import java.util.Arrays;
 
 public class ImpresionEnArray {
-    static int[] a = {7, -2, 5, 0, 6};
+    static int[] a = {7, -2, 5, 0, 6, 8};
     int[] b = {10,15,3,5,7};
     public static void main(String[] args) {
         System.out.println(a);
@@ -13,7 +13,11 @@ public class ImpresionEnArray {
     private static void Impresionfor(int[] a) {
         System.out.print("{");
         for (int i = 0; i < a.length; i++) {
+
             System.out.print(a[i]);
+            if (i>a.length-2)
+                break;
+            System.out.print(", ");
         }
         System.out.println("}");
     }
