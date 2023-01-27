@@ -10,7 +10,7 @@ public class Main {
             out[i]=in[i];
         }
         out[pos]=e;
-        out[pos+1]=in[];
+        out[pos+1]=in[1];
         return out;
     }
 }
