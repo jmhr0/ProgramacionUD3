@@ -14,11 +14,11 @@ public class CopiarArrays {
         System.out.println(b);
 
         //Arrays de objetos
-        Persona persona1 = new Persona("p1");
+        Persona persona1 = new Persona("p1",21);
         //usamos el metodo toString de la clase persona (sobrecargado sobre el toString de object)
         System.out.println(persona1.toString());
-        Persona persona2 = new Persona("p2");
-        Persona persona3 = new Persona("p3");
+        Persona persona2 = new Persona("p2",22);
+        Persona persona3 = new Persona("p3",23);
         //array de objetos y copiado arrays de objetos
         Persona [] gentes = {persona1,persona2,persona3};
         Persona [] personas = gentes.clone();

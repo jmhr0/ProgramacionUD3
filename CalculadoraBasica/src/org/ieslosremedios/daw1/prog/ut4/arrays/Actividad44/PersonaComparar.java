@@ -1,10 +1,10 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays;
+package org.ieslosremedios.daw1.prog.ut4.arrays.Actividad44;
 
-public class Persona {
+public class PersonaComparar {
     String nombre;
     Integer edad;
 
-    Persona (String nombre, Integer edad){
+    PersonaComparar(String nombre, Integer edad){
         this.nombre=nombre;
         this.edad=edad;
     }
