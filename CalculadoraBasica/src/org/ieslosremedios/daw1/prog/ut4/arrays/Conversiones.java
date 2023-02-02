@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.recorrerUnArray;
+package org.ieslosremedios.daw1.prog.ut4.arrays;
 
 import java.sql.SQLOutput;
 
