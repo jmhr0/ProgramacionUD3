@@ -32,6 +32,7 @@ public class EjemploConjuntos {
         Set<String> conjunto2=new HashSet();
         conjunto2.add("Hola3");
         conjunto2.add("Hola4");
+        conjunto2.add("HolaBetis");
         conjunto.removeAll(conjunto2);
         System.out.println(conjunto);
 
