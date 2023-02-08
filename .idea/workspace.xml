@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Actividad 4.1 de Arrays corrección">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act43OperacionesConArrays.java" afterDir="false" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Actividad 4.2OperacionesConArrays resuelta con lo propuesto en clase y Actividad 4.3 Completada">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/conjuntos/EjercicioTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/conjuntos/ejercicioLinkedHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act42OperacionesConArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act42OperacionesConArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674039447650</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Actividad 4.2OperacionesConArrays resuelta con lo propuesto en clase y Actividad 4.3 Completada">
+      <created>1675277316622</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675277316622</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +215,7 @@
     <MESSAGE value="Actividad 4.1 de Arrays" />
     <MESSAGE value="Actividad 4.1 de Arrays (Añade comentario)" />
     <MESSAGE value="Actividad 4.1 de Arrays corrección" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actividad 4.1 de Arrays corrección" />
+    <MESSAGE value="Actividad 4.2OperacionesConArrays resuelta con lo propuesto en clase y Actividad 4.3 Completada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 4.2OperacionesConArrays resuelta con lo propuesto en clase y Actividad 4.3 Completada" />
   </component>
 </project>
