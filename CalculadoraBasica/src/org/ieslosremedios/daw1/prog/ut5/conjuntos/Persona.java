@@ -2,7 +2,7 @@ package org.ieslosremedios.daw1.prog.ut5.conjuntos;
 
 import java.util.Objects;
 
-public class Persona implements Comparable  {
+public class Persona implements Comparable<Persona>  {
     private String nombre;
     private Integer edad;
 
@@ -32,10 +32,11 @@ public class Persona implements Comparable  {
         String res= "Me llamo " + nombre + " Y tengo " + edad + " Años";
         return res;
     }
+    // tambien se puede cambiar para comparar nombre, edad o etc segun su orden natural
     @Override
-    public int compareTo(Object other) {
+    public int compareTo(Persona other) {
         Persona otherpersona = (Persona)other;
-        return this.edad.compareTo(otherpersona.edad);
+        return this.nombre.compareTo(otherpersona.nombre);
     }
 
     @Override

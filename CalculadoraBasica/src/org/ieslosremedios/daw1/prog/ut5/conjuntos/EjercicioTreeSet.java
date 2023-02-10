@@ -24,7 +24,9 @@ public class EjercicioTreeSet {
             System.out.println(itString.next() + " ");
         }
         System.out.println(" ");
-        Set<Persona> conjuntoPersona = new TreeSet<>();
+        ComparadorPorEdad ComparadorPorEdad1 = new ComparadorPorEdad();
+        //'' Comparator.comparing(persona::getnombre)<-- reference method
+        Set<Persona> conjuntoPersona = new TreeSet<>(ComparadorPorEdad1);
         Persona David2 = new Persona("Juanma2", 26);
         Persona Juanma = new Persona("Juanma", 20);
         Persona Christian = new Persona("Christian", 19);
