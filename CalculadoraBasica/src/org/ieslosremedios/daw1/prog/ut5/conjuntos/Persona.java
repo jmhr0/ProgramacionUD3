@@ -32,7 +32,7 @@ public class Persona implements Comparable<Persona>  {
         String res= "Me llamo " + nombre + " Y tengo " + edad + " Años";
         return res;
     }
-    // tambien se puede cambiar para comparar nombre, edad o etc segun su orden natural
+    // también se puede cambiar para comparar nombre, edad o etc segun su orden natural
     @Override
     public int compareTo(Persona other) {
         Persona otherpersona = (Persona)other;
@@ -44,6 +44,6 @@ public class Persona implements Comparable<Persona>  {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Persona persona = (Persona) o;
-        return Objects.equals(nombre, persona.nombre);
+        return this.nombre.equals(persona.nombre);
     }
 }
