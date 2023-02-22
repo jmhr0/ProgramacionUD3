@@ -1,10 +1,10 @@
-package org.ieslosremedios.daw1.prog.ut5.conjuntos;
+package org.ieslosremedios.daw1.prog.ut5.conjuntos.ejercicio51;
 
 import java.util.Comparator;
 
-public class ComparadorPorEdad implements Comparator {
+public class ComparadorPorEdad implements Comparator<Persona> {
         @Override
-        public int compare(Object a, Object b) {
+        public int compare(Persona a, Persona b) {
             Persona p1 = (Persona) a;
             Persona p2 = (Persona) b;
 

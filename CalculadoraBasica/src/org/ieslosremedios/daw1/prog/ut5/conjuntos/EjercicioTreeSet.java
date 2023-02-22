@@ -1,5 +1,8 @@
 package org.ieslosremedios.daw1.prog.ut5.conjuntos;
 
+import org.ieslosremedios.daw1.prog.ut5.conjuntos.ejercicio51.ComparadorPorEdad;
+import org.ieslosremedios.daw1.prog.ut5.conjuntos.ejercicio51.Persona;
+
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;

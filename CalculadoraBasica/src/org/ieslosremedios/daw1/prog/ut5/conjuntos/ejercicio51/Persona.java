@@ -1,6 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut5.conjuntos;
-
-import java.util.Objects;
+package org.ieslosremedios.daw1.prog.ut5.conjuntos.ejercicio51;
 
 public class Persona implements Comparable<Persona>  {
     private String nombre;
@@ -29,13 +27,13 @@ public class Persona implements Comparable<Persona>  {
         this.edad = edad;
     }
     public String toString() {
-        String res= "Me llamo " + nombre + " Y tengo " + edad + " Años";
+        String res= "Me llamo " + this.nombre + " Y tengo " + this.edad + " Años";
         return res;
     }
     // también se puede cambiar para comparar nombre, edad o etc segun su orden natural
     @Override
     public int compareTo(Persona other) {
-        Persona otherpersona = (Persona)other;
+        Persona otherpersona = (Persona)other; //casting de "other" a "Persona"
         return this.nombre.compareTo(otherpersona.nombre);
     }
 
