@@ -1,17 +1,20 @@
 package org.ieslosremedios.daw1.prog.ut5.listas.Ejercicio52;
 
+import java.util.List;
 public class TaskList {
-    private void addTask (String task){
-
+    static void addTask (List<String> ListaTarea, String task){
+        ListaTarea.add(task);
+    }
+    static  void removeTask (List<String> ListaTarea, String task){
+        ListaTarea.remove(task);
 
     }
-    private void removeTask (String task){
-
+    static  void completeTask (List<String> ListaTarea, String task){
+        System.out.println("La tarea " + task + " Ha sido completada");
+        ListaTarea.remove(task);
     }
-    private void completeTask (String task){
+    static  void getTasks(List<String> ListaTarea){
 
-    }
-    private void getTasks(){
-
+        System.out.println(ListaTarea);
     }
 }
