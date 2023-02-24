@@ -7,13 +7,15 @@ public class ComparadorPorEdad implements Comparator<Persona> {
         public int compare(Persona a, Persona b) {
             Persona p1 = (Persona) a;
             Persona p2 = (Persona) b;
-
-            if (p1.getEdad() == p2.getEdad())
-                return 0;
-
-            if (p1.getEdad() > p2.getEdad())
-                return 1;
-
-            else return -1;
+            if(p1.getNombre().compareToIgnoreCase(p2.getNombre())==0){
+                if(p1.getEdad() == p2.getEdad()){
+                    return 0;
+                }
+                if(p1.getEdad() < p2.getEdad()){
+                    return 1;
+                }
+                return -1;
+            }
+            return  p1.getNombre().compareToIgnoreCase(p2.getNombre());
         }
-    }
+}
