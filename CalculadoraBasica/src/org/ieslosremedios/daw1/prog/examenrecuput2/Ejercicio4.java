@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.Examenrecuput2;
+package org.ieslosremedios.daw1.prog.examenrecuput2;
 enum Talla {
     XS, S, M, L, XL, XXL
 }

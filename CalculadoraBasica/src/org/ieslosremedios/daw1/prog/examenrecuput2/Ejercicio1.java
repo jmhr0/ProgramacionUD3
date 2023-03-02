@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.Examenrecuput2;
+package org.ieslosremedios.daw1.prog.examenrecuput2;
 
     public class Ejercicio1 {
         public static void main(String[] args) {
