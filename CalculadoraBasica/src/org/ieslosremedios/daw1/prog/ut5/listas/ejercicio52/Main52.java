@@ -6,6 +6,18 @@ import java.util.List;
 
 public class Main52 {
     public static void main(String[] args) {
-        List a= new TaskList(0);
+        String s="LinkedList";
+
+        TaskList listaTareas = new TaskList(s);
+
+        listaTareas.addTask("Estudiar");
+        listaTareas.addTask("Comer");
+        listaTareas.addTask("Lavar la ropa");
+
+        listaTareas.removeTask("Lavar la ropa");
+
+        listaTareas.completeTask("Comer");
+
+        String[] tareas = listaTareas.getTasks();
     }
 }

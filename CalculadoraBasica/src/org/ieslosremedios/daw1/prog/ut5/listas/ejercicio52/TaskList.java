@@ -5,12 +5,11 @@ import java.util.LinkedList;
 import java.util.List;
 public class TaskList {
 
-    public List<Integer> tasklist;
+    public List<String> tasklist;
 
     public TaskList(String s){
         if (s=="Arraylist")
         { tasklist=new ArrayList<>();
-
         }
         if (s=="Linkedlist"){tasklist= new LinkedList<>();
         } else {
@@ -18,19 +17,21 @@ public class TaskList {
         }
     }
      void addTask (String task){
-        taskList.add(task);
+        tasklist.add(task);
          System.out.println("Se ha añadido " + task);
     }
       void removeTask (String task){
-        taskList.remove(task);
+        tasklist.remove(task);
           System.out.println("Se ha borrado " + task);
 
     }
-      void completeTask (String task){
-        System.out.println("La tarea " + task + " Ha sido completada");
-        taskList.remove(task);
+    public void completeTask(String task) {
+        int index = tasklist.indexOf(task);
+        if (index >= 0) {
+            tasklist.set(index, task + " ✅");
+        }
     }
-      void getTasks(List<String> taskList){
-        taskList.toArray();
+    public String[] getTasks() {
+        return tasklist.toArray(new String[0]);
     }
 }
