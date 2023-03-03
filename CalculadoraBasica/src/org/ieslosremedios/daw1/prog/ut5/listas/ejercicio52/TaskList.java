@@ -7,11 +7,12 @@ public class TaskList {
 
     public List<String> tasklist;
 
-    public TaskList(String s){
-        if (s=="Arraylist")
+    public TaskList(String tipolista){
+        if (tipolista.equalsIgnoreCase("s"))
         { tasklist=new ArrayList<>();
         }
-        if (s=="Linkedlist"){tasklist= new LinkedList<>();
+        if (tipolista.equalsIgnoreCase("s"))
+        {tasklist= new LinkedList<>();
         } else {
             System.out.println("El valor no existe");
         }
@@ -28,7 +29,7 @@ public class TaskList {
     public void completeTask(String task) {
         int index = tasklist.indexOf(task);
         if (index >= 0) {
-            tasklist.set(index, task + " ✅");
+            tasklist.set(index, task + " realizado");
         }
     }
     public String[] getTasks() {

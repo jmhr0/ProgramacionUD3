@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Ejercicios Clase 08/02/2023">
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Correcciones ej 5.2 segun dado en clase">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/map/Ejercicio53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/Main52.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/Main52.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Talla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Talla.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675848756103</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Correcciones ej 5.2 segun dado en clase">
+      <created>1677823229022</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677823229022</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +239,7 @@
     <MESSAGE value="Actividad 4.1 de Arrays corrección" />
     <MESSAGE value="Actividad 4.2OperacionesConArrays resuelta con lo propuesto en clase y Actividad 4.3 Completada" />
     <MESSAGE value="Ejercicios Clase 08/02/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios Clase 08/02/2023" />
+    <MESSAGE value="Correcciones ej 5.2 segun dado en clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcciones ej 5.2 segun dado en clase" />
   </component>
 </project>

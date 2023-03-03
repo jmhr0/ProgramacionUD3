@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Main52 {
     public static void main(String[] args) {
-        String s="LinkedList";
+        String tipolista="LinkedList";
 
-        TaskList listaTareas = new TaskList(s);
+        TaskList listaTareas = new TaskList(tipolista);
 
         listaTareas.addTask("Estudiar");
         listaTareas.addTask("Comer");
