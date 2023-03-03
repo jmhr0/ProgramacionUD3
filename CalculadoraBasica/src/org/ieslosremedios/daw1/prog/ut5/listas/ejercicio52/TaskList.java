@@ -8,10 +8,10 @@ public class TaskList {
     public List<String> tasklist;
 
     public TaskList(String tipolista){
-        if (tipolista.equalsIgnoreCase("s"))
+        if (tipolista.equalsIgnoreCase("Arraylist"))
         { tasklist=new ArrayList<>();
         }
-        if (tipolista.equalsIgnoreCase("s"))
+        if (tipolista.equalsIgnoreCase("Linkedlist"))
         {tasklist= new LinkedList<>();
         } else {
             System.out.println("El valor no existe");
