@@ -3,6 +3,7 @@ package org.ieslosremedios.daw1.prog.ut5.listas.ejercicio52;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Main52 {
     public static void main(String[] args) {
@@ -19,5 +20,8 @@ public class Main52 {
         listaTareas.completeTask("Comer");
 
         String[] tareas = listaTareas.getTasks();
+
+
+
     }
 }

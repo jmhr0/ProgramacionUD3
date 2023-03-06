@@ -29,6 +29,5 @@ public class Ejercicio53 {
                 Integer key = itElementos.next();
                 System.out.println("El número " + key + " está " + mapaContador.get(key) + " veces");
             }
-
             }
         }
