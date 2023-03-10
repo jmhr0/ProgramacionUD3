@@ -1,7 +1,7 @@
 package org.ieslosremedios.daw1.prog.ut6;
 import java.util.*;
 
-public class EjLanzamientoExcepcion {
+public class EjemploLanzamientoExcepcion {
         public static void main(String[] args) {
 
             List<Integer>listanum=new LinkedList<>();
