@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Correcciones ej 5.2 segun dado en clase">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/map/Ejercicio53.java" afterDir="false" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Ejercicio 5.3 completo">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/ej61/Ejercicio61.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/Main52.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/Main52.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut5/listas/ejercicio52/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Ejercicio5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Talla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/Examenrecuput2/Talla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/Ejercicio62.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/ej62/Ejercicio62.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677823229022</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ejercicio 5.3 completo">
+      <created>1677825155673</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677825155673</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +239,7 @@
     <MESSAGE value="Actividad 4.2OperacionesConArrays resuelta con lo propuesto en clase y Actividad 4.3 Completada" />
     <MESSAGE value="Ejercicios Clase 08/02/2023" />
     <MESSAGE value="Correcciones ej 5.2 segun dado en clase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcciones ej 5.2 segun dado en clase" />
+    <MESSAGE value="Ejercicio 5.3 completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 5.3 completo" />
   </component>
 </project>
