@@ -38,6 +38,7 @@ public class Ejercicio61 {
         try{
             System.out.println(caracterEn("hola", 2));
             System.out.println(caracterEn("programacion", 5));
+            System.out.println(caracterEn("adios", 7));
         } catch (Exception excepcion) {
             System.err.println(excepcion.getMessage());
         }
