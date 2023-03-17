@@ -5,7 +5,7 @@ public class Ejercicio62 {
         cuentaAtras(5);
         System.out.println(sumaNumNatural(5));
         System.out.println(seriefibonacci(11));
-        System.out.println(divisioneuclidea(5,10));
+        System.out.println(divisioneuclidea(20,40));
 
 
     }
@@ -40,11 +40,11 @@ public class Ejercicio62 {
     // Crea un método que calcule el máximo común divisor (MCD) de dos números enteros
     // (utilizando la división euclídea).
 
-    static int divisioneuclidea(int i,int j) {
-        if (j == 0) {
-            return i;
+    static int divisioneuclidea(int s,int n) {
+        if (n == 0) {
+            return s;
         }
         else
-            return divisioneuclidea(j, i % j);
+            return divisioneuclidea(n, s % n);
     }
 }
