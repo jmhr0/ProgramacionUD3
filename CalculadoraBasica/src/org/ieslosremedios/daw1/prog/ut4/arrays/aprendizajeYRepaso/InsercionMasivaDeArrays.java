@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays;
+package org.ieslosremedios.daw1.prog.ut4.arrays.aprendizajeYRepaso;
 
 import java.util.Arrays;
 

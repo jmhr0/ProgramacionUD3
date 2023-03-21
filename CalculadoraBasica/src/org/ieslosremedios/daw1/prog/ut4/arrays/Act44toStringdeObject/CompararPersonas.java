@@ -1,6 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.Actividad44;
-
-import org.ieslosremedios.daw1.prog.ut4.arrays.Persona;
+package org.ieslosremedios.daw1.prog.ut4.arrays.Act44toStringdeObject;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays;
+package org.ieslosremedios.daw1.prog.ut4.arrays.Act43OperacionesConArrays;
 
 import java.util.Arrays;
 import java.util.Random;

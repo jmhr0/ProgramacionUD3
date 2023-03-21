@@ -1,7 +1,5 @@
 package org.ieslosremedios.daw1.prog.ut5.conjuntos;
 
-import org.ieslosremedios.daw1.prog.ut4.arrays.Persona;
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;

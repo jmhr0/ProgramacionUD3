@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays;
+package org.ieslosremedios.daw1.prog.ut4.arrays.aprendizajeYRepaso;
 
 public class Array_enParametros_de_un_metodo {
     public static void main(String[] args) {

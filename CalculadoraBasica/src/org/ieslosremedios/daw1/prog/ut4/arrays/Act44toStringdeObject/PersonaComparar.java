@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.Actividad44;
+package org.ieslosremedios.daw1.prog.ut4.arrays.Act44toStringdeObject;
 
 public class PersonaComparar {
     String nombre;
