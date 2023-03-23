@@ -1,7 +1,9 @@
 package org.ieslosremedios.daw1.prog.ut6.algoritmiaAvanzada.algoritmoVoraz;
 
 public abstract class EsquemaVoraz {
-
+    Object[] solucion;
+    Object candidato;
+    int etapa;
     public void voraz () {
         inicializa();
         while (!fin()) {
