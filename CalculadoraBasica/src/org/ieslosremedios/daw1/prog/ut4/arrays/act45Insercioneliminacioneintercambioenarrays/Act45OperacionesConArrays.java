@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.Act45Insercioneliminacioneintercambioenarrays;
+package org.ieslosremedios.daw1.prog.ut4.arrays.act45Insercioneliminacioneintercambioenarrays;
 
 import java.util.Arrays;
 

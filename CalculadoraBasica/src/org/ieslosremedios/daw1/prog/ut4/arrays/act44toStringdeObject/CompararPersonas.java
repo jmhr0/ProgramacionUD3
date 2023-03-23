@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.Act44toStringdeObject;
+package org.ieslosremedios.daw1.prog.ut4.arrays.act44toStringdeObject;
 
 import java.util.Arrays;
 

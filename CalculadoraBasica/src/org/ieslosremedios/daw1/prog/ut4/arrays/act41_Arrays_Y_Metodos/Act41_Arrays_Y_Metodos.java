@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.Act41_Arrays_Y_Metodos;
+package org.ieslosremedios.daw1.prog.ut4.arrays.act41_Arrays_Y_Metodos;
 
 public class Act41_Arrays_Y_Metodos {
     //1Crea un método main

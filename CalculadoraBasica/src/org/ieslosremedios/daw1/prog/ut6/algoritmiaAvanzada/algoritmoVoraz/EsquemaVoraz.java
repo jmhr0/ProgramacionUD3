@@ -1,24 +1,25 @@
 package org.ieslosremedios.daw1.prog.ut6.algoritmiaAvanzada.algoritmoVoraz;
 
 public abstract class EsquemaVoraz {
-    public void voraz (){
-        Inicializa();
-        while(!fin()) {
+
+    public void voraz () {
+        inicializa();
+        while (!fin()) {
             seleccionaYEliminaCandidato();
-            if (esPrometodor()) {
-                AnotaEnSolución();
+            if (esPrometedor()) {
+                anotaEnSolucion();
             }
         }
     }
 
-    protected abstract void AnotaEnSolución();
+    protected abstract void anotaEnSolucion();
 
-    protected abstract boolean esPrometodor();
+    protected abstract boolean esPrometedor();
 
     protected abstract void seleccionaYEliminaCandidato();
 
     protected abstract boolean fin();
 
-    protected abstract void Inicializa();
+    protected abstract void inicializa();
 
 }

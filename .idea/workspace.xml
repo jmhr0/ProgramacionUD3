@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Ejercicio 5.3 completo">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/ej61/Ejercicio61.java" afterDir="false" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Ejercicio tema 6">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act46cadenas/Cadenas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/ej63/Ejercicio63.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/Ejercicio62.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/ej62/Ejercicio62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act41_Arrays_Y_Metodos/Act41_Arrays_Y_Metodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act41_Arrays_Y_Metodos/Act41_Arrays_Y_Metodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act42OperacionesConArrays/Act42OperacionesConArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act42OperacionesConArrays/Act42OperacionesConArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act43OperacionesConArrays/Act43OperacionesConArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act43OperacionesConArrays/Act43OperacionesConArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act44toStringdeObject/CompararPersonas.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act44toStringdeObject/CompararPersonas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act44toStringdeObject/PersonaComparar.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act44toStringdeObject/PersonaComparar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/Act45Insercioneliminacioneintercambioenarrays/Act45OperacionesConArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/act45Insercioneliminacioneintercambioenarrays/Act45OperacionesConArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/EsquemaVoraz.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/EsquemaVoraz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/ProblemaCambioMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/ProblemaCambioMoneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/TestCambioMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/TestCambioMoneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut4/arrays/Array_enParametros_de_un_metodo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut4/arrays/Introduccion_arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgramacionUD3/org/ieslosremedios/daw1/prog/ut4/arrays/TiposArrays.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677825155673</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Ejercicio tema 6">
+      <created>1678687640562</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678687640562</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +259,7 @@
     <MESSAGE value="Ejercicios Clase 08/02/2023" />
     <MESSAGE value="Correcciones ej 5.2 segun dado en clase" />
     <MESSAGE value="Ejercicio 5.3 completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 5.3 completo" />
+    <MESSAGE value="Ejercicio tema 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio tema 6" />
   </component>
 </project>

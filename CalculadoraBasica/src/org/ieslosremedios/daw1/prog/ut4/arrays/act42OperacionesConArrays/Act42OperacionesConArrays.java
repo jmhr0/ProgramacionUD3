@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.Act42OperacionesConArrays;
+package org.ieslosremedios.daw1.prog.ut4.arrays.act42OperacionesConArrays;
 
 import java.util.Arrays;
 
