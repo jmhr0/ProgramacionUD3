@@ -17,6 +17,9 @@ public class Main {
         //Imprimimos el primer elemento
         System.out.println("Primer elemento; ");
         cola1.frente();
+        //imprimimos el resto de elementos
+        System.out.println("Resto elementos;");
+        cola1.resto();
         //Se vacia la cola
         cola1.limpiar();
         System.out.println(cola1);
