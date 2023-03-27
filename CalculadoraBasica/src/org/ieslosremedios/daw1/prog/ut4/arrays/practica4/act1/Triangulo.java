@@ -1,6 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.practica4.Act1;
-
-import org.ieslosremedios.daw1.prog.ut3.examen.Color;
+package org.ieslosremedios.daw1.prog.ut4.arrays.practica4.act1;
 
 public class Triangulo extends Geometria implements Coloreable {
     private double base;

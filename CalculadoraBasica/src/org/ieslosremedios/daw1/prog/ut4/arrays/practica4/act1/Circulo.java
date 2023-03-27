@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut4.arrays.practica4.Act1;
+package org.ieslosremedios.daw1.prog.ut4.arrays.practica4.act1;
 
 public class Circulo extends Geometria implements Coloreable {
     private double radio;
