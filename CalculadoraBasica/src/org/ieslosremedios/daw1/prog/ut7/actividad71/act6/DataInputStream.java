@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut7.act6;
+package org.ieslosremedios.daw1.prog.ut7.actividad71.act6;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut7.act7;
+package org.ieslosremedios.daw1.prog.ut7.actividad71.act7;
 
 import java.io.File;
 import java.io.PrintWriter;
