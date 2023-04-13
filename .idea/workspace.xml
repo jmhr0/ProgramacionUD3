@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="AvanceEjercicios">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act1/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act1/Coloreable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act1/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act1/Geometria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act1/MainAct1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act1/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act5.java" afterDir="false" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Practica4 Terminada">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ampliacion/Texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej1/ExcepcionCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej2/TorresHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej3/NotacionBigOTorres.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act3.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act4.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/Act4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/ProblemaMochilaFaccionaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/ProblemaMochilaFaccionaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/TestMochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/algoritmiaAvanzada/algoritmoVoraz/TestMochila.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679553951305</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Practica4 Terminada">
+      <created>1679896258142</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679896258142</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +266,7 @@
     <MESSAGE value="Ejercicio 5.3 completo" />
     <MESSAGE value="Ejercicio tema 6" />
     <MESSAGE value="AvanceEjercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="AvanceEjercicios" />
+    <MESSAGE value="Practica4 Terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica4 Terminada" />
   </component>
 </project>
