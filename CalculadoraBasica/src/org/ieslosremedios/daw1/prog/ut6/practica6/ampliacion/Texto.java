@@ -3,7 +3,7 @@ package org.ieslosremedios.daw1.prog.ut6.practica6.ampliacion;
 public class Texto {
     //Si, se puede resolver mediante iteracion
 
-    //a solución recursiva tiene una complejidad de tiempo exponencial de O(2^n),
+    //la solución recursiva tiene una complejidad de tiempo exponencial de O(2^n),
     //mientras que la complejidad de la solución iterativa depende del número de discos y del número de movimientos necesarios para resolver el problema.
     // En general, la solución recursiva es más eficiente para problemas con un número pequeño de discos
 
