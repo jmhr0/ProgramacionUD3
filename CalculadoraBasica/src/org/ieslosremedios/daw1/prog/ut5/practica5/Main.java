@@ -37,11 +37,12 @@ public class Main {
         pila1.apilar("Juan");
         pila1.apilar("Roberto");
         pila1.apilar("Alberto");
+        System.out.println(pila1);
         //metodo desapilar
         pila1.desapilar();
         System.out.println(pila1);
         //metodo cima
-        pila1.cima();
+        System.out.println(pila1.cima());
         //metodo limpiar
         pila1.limpiar();
         System.out.println(pila1);

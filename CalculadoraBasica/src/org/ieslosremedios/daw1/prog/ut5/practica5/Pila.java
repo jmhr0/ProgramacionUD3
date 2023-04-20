@@ -4,18 +4,18 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Pila {
-    private List pila = new LinkedList<>();
+    private List<String> pila = new LinkedList<String>();
 
-    public void apilar(Object element){
-        pila.add(element);
+    public void apilar(String persona){
+        pila.add(persona);
     }
 
     public void desapilar(){
         pila.remove(pila.size() - 1);
     }
 
-    public void cima(){
-        System.out.println(pila.get(pila.size() - 1));
+    public String cima(){
+        return (pila.get(pila.size() - 1));
     }
 
     public void limpiar(){
@@ -26,8 +26,8 @@ public class Pila {
         return pila.isEmpty();
     }
 
-    public void longitud(){
-        System.out.println(pila.size());
+    public int longitud(){
+        return (pila.size());
     }
 
     @Override

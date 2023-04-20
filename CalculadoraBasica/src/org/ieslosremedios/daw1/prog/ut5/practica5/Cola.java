@@ -13,7 +13,7 @@ public class Cola {
     public void desencolar(){ cola.remove(0); }
 
     public void frente(){
-        System.out.println(cola.get(0));;
+        System.out.println(cola.get(0));
     }
 
     public void resto (){
@@ -30,8 +30,8 @@ public class Cola {
         return cola.isEmpty();
     }
 
-    public void longitud (){
-        System.out.println(cola.size());
+    public int longitud (){
+        return cola.size();
     }
 
     @Override
