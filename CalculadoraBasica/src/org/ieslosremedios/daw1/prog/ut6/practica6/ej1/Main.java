@@ -13,7 +13,7 @@ public class Main {
 
     public static void Algo() throws ExcepcionCustom {
         try {
-            int res = 1 / 0; // division por cero
+            int res = 5 / 0;
         } catch (ArithmeticException e) {
             throw new ExcepcionCustom("Error, se ha realizado una division entre 0", e);
         }
