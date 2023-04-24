@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut7.serializacion;
+package org.ieslosremedios.daw1.prog.ut7.xml;
 
 import java.io.Serializable;
 
