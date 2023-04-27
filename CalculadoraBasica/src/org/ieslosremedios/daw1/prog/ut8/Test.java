@@ -24,4 +24,5 @@ public class Test {
         em.persist(c2);
         //cerrar conexion
     }
+
 }
