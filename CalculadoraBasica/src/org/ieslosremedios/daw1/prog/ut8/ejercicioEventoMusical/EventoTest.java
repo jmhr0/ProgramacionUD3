@@ -1,4 +1,4 @@
-package org.ieslosremedios.daw1.prog.ut8;
+package org.ieslosremedios.daw1.prog.ut8.ejercicioEventoMusical;
 
 import java.math.BigInteger;
 import java.sql.Date;
