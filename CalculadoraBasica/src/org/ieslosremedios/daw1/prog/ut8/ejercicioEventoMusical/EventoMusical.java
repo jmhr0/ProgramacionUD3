@@ -6,12 +6,16 @@ import java.lang.reflect.Type;
 import java.math.BigInteger;
 import java.sql.Date;
 import java.util.List;
-
+@NamedQueries({
+        @NamedQuery(name = "queryEstaticaBusqueda", query = "SELECT e FROM EventoMusical e WHERE nombre LIKE ?1"),
+        @NamedQuery(name = "queryEstaticaActualizacion", query = "UPDATE EventoMusical SET nombre = 'nombredif' WHERE nombre LIKE ?1")
+})
+@Entity
 public class EventoMusical implements Serializable {
 
     @Id
     @SequenceGenerator(name = "10en10",allocationSize = 10)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "10en10")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nombre;
     private Date fecha;
@@ -67,6 +71,19 @@ public class EventoMusical implements Serializable {
     }
 
     public EventoMusical() {
+    }
+
+    @Override
+    public String toString() {
+        return "EventoMusical{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", fecha=" + fecha +
+                ", recaudacion=" + recaudacion +
+                ", generos=" + generos +
+                ", artistas=" + artistas +
+                ", control=" + control +
+                '}';
     }
 
     public EventoMusical(String nombre, Date fecha, BigInteger recaudacion) {
