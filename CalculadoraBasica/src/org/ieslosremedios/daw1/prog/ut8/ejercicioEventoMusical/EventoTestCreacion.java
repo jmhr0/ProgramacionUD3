@@ -1,14 +1,12 @@
 package org.ieslosremedios.daw1.prog.ut8.ejercicioEventoMusical;
 
-import org.ieslosremedios.daw1.prog.ut8.Coche;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.math.BigInteger;
 import java.sql.Date;
 
-public class EventoTest {
+public class EventoTestCreacion {
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("objectdb:$objectdb/db/eventoMusical.odb");
         EntityManager em = emf.createEntityManager();
