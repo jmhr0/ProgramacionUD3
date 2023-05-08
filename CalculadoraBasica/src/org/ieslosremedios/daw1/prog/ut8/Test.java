@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 
 public class Test {
     public static void main(String[] args) {
-        //abrir conexion
+        //abrir Conexion
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
@@ -22,7 +22,7 @@ public class Test {
 
         em.persist(c1);
         em.persist(c2);
-        //cerrar conexion
+        //cerrar Conexion
     }
 
 }

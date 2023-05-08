@@ -1,0 +1,5 @@
+CREATE OR REPLACE USER juanma IDENTIFIED BY 'herramjm';
+GRANT ALL ON *.* TO 'juanma'@'localhost';
+
+DROP DATABASE IF EXISTS
+CREATE DATABASE tienda;
