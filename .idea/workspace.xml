@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Practica4 Terminada">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ampliacion/Texto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej1/ExcepcionCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej2/TorresHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej3/NotacionBigOTorres.java" afterDir="false" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Practica6 Terminada">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut7/practica/ClasesAImportar/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut7/practica/ClasesAImportar/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut7/practica/ClasesAImportar/OperacionesAplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut7/practica/ClasesAImportar/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut7/practica/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679896258142</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Practica6 Terminada">
+      <created>1681362709773</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681362709773</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +274,7 @@
     <MESSAGE value="Ejercicio tema 6" />
     <MESSAGE value="AvanceEjercicios" />
     <MESSAGE value="Practica4 Terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica4 Terminada" />
+    <MESSAGE value="Practica6 Terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica6 Terminada" />
   </component>
 </project>
