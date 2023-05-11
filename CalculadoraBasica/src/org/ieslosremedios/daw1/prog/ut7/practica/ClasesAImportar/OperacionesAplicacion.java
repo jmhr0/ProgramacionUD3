@@ -20,7 +20,7 @@ import java.util.Scanner;
 public class OperacionesAplicacion {
     //El método pasa a un archivo XML una Lista
     //Como parámetro recibe una lista, que convertirá en el archivo XML y una ruta, donde guardará el archivo
-    public static void importarXML(List<Estudiante> listaEstudiantes, String rutaParaImportar){
+    public static void importarXML(List<Estudiante> listaEstudiantes, String rutaParaImportar) {
         try {
             //Creamos el documento vacío para añadirle a continuación los nodos
             Document document = null;
@@ -61,9 +61,8 @@ public class OperacionesAplicacion {
             StreamResult result = new StreamResult(new File(rutaParaImportar));
 
             //Se realiza la transformación, de Document a Fichero.
-            transformer.transform(source, result); }
-
-        catch (ParserConfigurationException e) {
+            transformer.transform(source, result);
+        } catch (ParserConfigurationException e) {
             System.out.println("Ha fallado el parseo " + e.getMessage());
         } catch (TransformerConfigurationException e) {
             System.out.println("Ha fallado la transformación del documento " + e.getMessage());
@@ -181,15 +180,16 @@ public class OperacionesAplicacion {
 
     //Este método pone a 0 las participaciones de todos los alumnos en un archivo XML
     //Como parámetro recibe la ruta del archivo XMl del que se desea poner las participaciones a 0
-    public static void resetearParticipaciones(String rutaParaResetear) throws ParserConfigurationException, IOException, SAXException, TransformerException {
+    public static void resetearParticipaciones(String rutaParaResetear) {
         //Crea la lista a partir del XML con el método anterior
-        List<Estudiante> listaEstudiantes = pasarXML_A_Lista(rutaParaResetear);
+        List<Estudiante> listaEstudiantes = null;
+        listaEstudiantes = pasarXML_A_Lista(rutaParaResetear);
         //Con un bucle vamos poniendo la participación de cada alumno a 0
-        for (int i = 0; i < listaEstudiantes.size(); i++){
+        for (int i = 0; i < listaEstudiantes.size(); i++) {
             listaEstudiantes.get(i).setParticipacion(0);
         }
         //Y finalmente se importa el archivo, así acabamos con el mismo XML pero con todas las participaciones en 0
-        importarXML(listaEstudiantes,rutaParaResetear);
+        importarXML(listaEstudiantes, rutaParaResetear);
         System.out.println("Se han reseteado las participaciones de los Alumnos");
     }
 }
