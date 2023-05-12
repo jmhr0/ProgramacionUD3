@@ -25,7 +25,7 @@ public class OperacionesAplicacion {
             //Creamos el documento vacío para añadirle a continuación los nodos
             Document document = null;
             document = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder().newDocument();
-            //Creamos el nodo raíz
+            //Creamos el nodo raíz+
             Element estudiantes = document.createElement("estudiantes");
             //Hacemos que cuelgue del documento (estructura de árbol)
             document.appendChild(estudiantes);

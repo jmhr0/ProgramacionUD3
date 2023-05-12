@@ -40,4 +40,14 @@ public class Alumno extends Persona implements Serializable {
     public void setOrdenador(Ordenador ordenador) {
         this.ordenador = ordenador;
     }
+
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "id=" + id +
+                ", grupo='" + grupo + '\'' +
+                ", ordenador=" + ordenador +
+                '}';
+    }
 }
+

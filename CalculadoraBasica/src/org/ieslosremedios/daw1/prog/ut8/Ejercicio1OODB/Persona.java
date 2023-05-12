@@ -1,7 +1,8 @@
 package org.ieslosremedios.daw1.prog.ut8.Ejercicio1OODB;
 
+import javax.persistence.Entity;
 import javax.persistence.Transient;
-
+@Entity
 public class Persona {
     private String nombre;
     @Transient

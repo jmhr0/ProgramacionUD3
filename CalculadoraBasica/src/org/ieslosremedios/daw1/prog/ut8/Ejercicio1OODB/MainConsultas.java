@@ -13,8 +13,11 @@ public class MainConsultas {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("objectdb:$objectdb/db/Alumnos.odb");
         EntityManager em = emf.createEntityManager();
 
-        TypedQuery<EventoMusical> querydinamic= em.createQuery("SELECT a FROM Alumnos a WHERE nombre LIKE ?1", EventoMusical.class);
-        querydinamic.setParameter(1,"J");
-        List<EventoMusical> Alumno = querydinamic.getResultList();
+        TypedQuery<Alumno> querydinamic= em.createQuery("SELECT a FROM Alumno a WHERE nombre LIKE ?1", Alumno.class);
+        querydinamic.setParameter(1,"J%");
+        List<Alumno> Alumno = querydinamic.getResultList();
+        System.out.println(Alumno);
+        em.close();
+        emf.close();
     }
 }

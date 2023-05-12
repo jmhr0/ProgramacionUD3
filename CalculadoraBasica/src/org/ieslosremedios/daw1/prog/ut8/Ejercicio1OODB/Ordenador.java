@@ -45,6 +45,13 @@ public class Ordenador {
         this.especificaciones = especificaciones;
     }
 
+    public Ordenador(Integer id, String IP, Integer numeroSerie, Especificaciones especificaciones) {
+        this.id = id;
+        this.IP = IP;
+        this.numeroSerie = numeroSerie;
+        this.especificaciones = especificaciones;
+    }
+
     public Ordenador() {
     }
 }

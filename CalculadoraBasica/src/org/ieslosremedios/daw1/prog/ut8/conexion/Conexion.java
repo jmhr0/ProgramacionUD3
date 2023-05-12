@@ -1,9 +1,7 @@
 package org.ieslosremedios.daw1.prog.ut8.conexion;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import javax.management.Query;
+import java.sql.*;
 
 public class Conexion {
     public static void main(String[] args) {
@@ -19,6 +17,15 @@ public class Conexion {
             Statement stm = con.createStatement();
 
             System.out.println("!Conexión exitosa¡");
+
+            String query = "SELECT * FROM productos ORDER BY precio";
+
+            ResultSet resultados = stm.executeQuery(query);
+
+            while (resultados.next()) {
+                System.out.println("Nombre: " + resultados.getString("nombre") + " " + " Precio: "
+                        + resultados.getInt("precio"));
+            }
 
             stm.close();
             con.close();

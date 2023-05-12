@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 public class MainInsercion {
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("objectdb:$objectdb/db/Alumnos");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("objectdb:$objectdb/db/Alumnos.odb");
         EntityManager em = emf.createEntityManager();
 
         em.getTransaction().begin();
