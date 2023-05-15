@@ -22,9 +22,11 @@ public class Conexion {
 
             ResultSet resultados = stm.executeQuery(query);
 
+
             while (resultados.next()) {
-                System.out.println("Nombre: " + resultados.getString("nombre") + " " + " Precio: "
-                        + resultados.getInt("precio"));
+                System.out.println("Nombre: " + resultados.getString("nombre") + "| Precio: "
+                        + resultados.getInt("precio") + "| Pais: " + resultados.getString("Pais") +
+                        "| Descripcion: " + resultados.getString("descripcion"));
             }
 
             stm.close();
