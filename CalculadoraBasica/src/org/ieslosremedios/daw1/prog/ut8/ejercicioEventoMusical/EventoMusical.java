@@ -7,9 +7,9 @@ import java.math.BigInteger;
 import java.sql.Date;
 import java.util.List;
 @NamedQueries({
-        @NamedQuery(name = "queryEstaticaBusqueda", query = "SELECT e FROM EventoMusical e WHERE nombre LIKE ?1"),
-        @NamedQuery(name = "queryEstaticaBorrado", query = "DELETE FROM EventoMusical WHERE nombre LIKE ?1"),
-        @NamedQuery(name = "queryEstaticaActualizacion", query = "UPDATE EventoMusical SET nombre = 'Evento1' WHERE id = ?1")
+        @NamedQuery(name = "queryEstaticaBusqueda", query = "SELECT e FROM EventoMusical e WHERE nombre LIKE eventoMusical1"),
+        @NamedQuery(name = "queryEstaticaBorrado", query = "DELETE FROM EventoMusical WHERE nombre LIKE EventoMusical1"),
+        @NamedQuery(name = "queryEstaticaActualizacion", query = "UPDATE EventoMusical SET nombre = 'EventoMusical1' WHERE id = ?1")
 })
 @Entity
 public class EventoMusical implements Serializable {

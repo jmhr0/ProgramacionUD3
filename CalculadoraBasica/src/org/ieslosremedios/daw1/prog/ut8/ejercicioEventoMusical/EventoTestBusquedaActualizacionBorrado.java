@@ -14,7 +14,6 @@ public class EventoTestBusquedaActualizacionBorrado {
         //JPQL
         //estatico
         TypedQuery<EventoMusical> querystatic= em.createNamedQuery("queryEstaticaBusqueda", EventoMusical.class);
-        querystatic.setParameter(1,"eventoMusical1");
         List<EventoMusical> eventoMusical1 = querystatic.getResultList();
         System.out.println(eventoMusical1);
 
@@ -28,7 +27,6 @@ public class EventoTestBusquedaActualizacionBorrado {
         em.getTransaction().begin();
         //Actualización
         EventoMusical EventoToUpdate = em.find(EventoMusical.class,1);
-        EventoToUpdate.setNombre("EventoMusical1");
         //con JPQL
         //estatico
         TypedQuery<EventoMusical> querystaticUPDATE= em.createNamedQuery("queryEstaticaActualizacion", EventoMusical.class);
