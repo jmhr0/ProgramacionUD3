@@ -18,7 +18,7 @@ public class Actividad92 extends Frame implements ActionListener {
             setTitle("Mi componente");
             setBackground(Color.lightGray);
             setLayout(null);
-            setSize(1366,768);
+            setSize(1200,1200);
             setVisible(true);
 
             Button botoncancel= new Button("cancelar");
