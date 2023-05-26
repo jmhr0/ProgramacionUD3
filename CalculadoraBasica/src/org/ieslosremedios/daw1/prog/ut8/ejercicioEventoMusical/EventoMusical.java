@@ -1,6 +1,7 @@
 package org.ieslosremedios.daw1.prog.ut8.ejercicioEventoMusical;
 
-import javax.persistence.*;
+
+import java.beans.Transient;
 import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.math.BigInteger;
