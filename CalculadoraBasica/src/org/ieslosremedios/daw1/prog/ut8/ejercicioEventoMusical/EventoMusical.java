@@ -1,6 +1,7 @@
 package org.ieslosremedios.daw1.prog.ut8.ejercicioEventoMusical;
 
 
+import javax.persistence.*;
 import java.beans.Transient;
 import java.io.Serializable;
 import java.lang.reflect.Type;
@@ -27,7 +28,7 @@ public class EventoMusical implements Serializable {
     private Generos generos;
     @Embedded
     private List<Artista> artistas;
-    @Transient // O usar modificador transient
+    // O usar modificador transient
     private int control;
 
     public EventoMusical(Integer id, String nombre, Date fecha, BigInteger recaudacion, Generos generos, List<Artista> artistas, int control) {
