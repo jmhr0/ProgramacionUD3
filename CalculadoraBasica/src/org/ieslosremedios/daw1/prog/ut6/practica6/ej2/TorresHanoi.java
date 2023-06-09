@@ -3,7 +3,7 @@ package org.ieslosremedios.daw1.prog.ut6.practica6.ej2;
 public class TorresHanoi {
     public static void main(String[] args) {
         int numDiscos = 3; // Numero de discos a mover
-        moverDiscos(numDiscos, 'A', 'B', 'C');
+        moverDiscos(numDiscos, 'A', 'C', 'B');
     }
 
     public static void moverDiscos(int numDiscos, char torreInicial, char torreFinal, char torreAuxiliar) {
