@@ -9,4 +9,11 @@ public class Departamento {
     public Departamento(String nombre) {
         this.nombre = nombre;
     }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }

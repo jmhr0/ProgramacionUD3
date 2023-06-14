@@ -1,5 +1,5 @@
 package org.ieslosremedios.daw1.prog.ut8.Ejercicio1OODB;
-
+/*
 import org.ieslosremedios.daw1.prog.ut8.ejercicioEventoMusical.EventoMusical;
 
 import javax.persistence.EntityManager;
@@ -21,3 +21,4 @@ public class MainConsultas {
         emf.close();
     }
 }
+*/
