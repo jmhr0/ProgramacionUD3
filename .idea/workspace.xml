@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Practica 4 y 6 bien" />
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Practica 4 ultima" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686720993911</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Practica 4 ultima">
+      <created>1686721455866</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686721455866</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +300,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias" />
     <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2" />
     <MESSAGE value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
     <MESSAGE value="Clase 01/12/2022 Ejercicios 3.2 y 3.3 Programacion" />
@@ -318,6 +324,7 @@
     <MESSAGE value="Act 9.2" />
     <MESSAGE value="Act 9.3" />
     <MESSAGE value="Practica 4 y 6 bien" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica 4 y 6 bien" />
+    <MESSAGE value="Practica 4 ultima" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica 4 ultima" />
   </component>
 </project>
