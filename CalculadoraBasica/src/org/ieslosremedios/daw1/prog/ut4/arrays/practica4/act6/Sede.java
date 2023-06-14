@@ -1,27 +1,23 @@
 package org.ieslosremedios.daw1.prog.ut4.arrays.practica4.act6;
 
+import com.objectdb.o.DPS;
+
 public class Sede {
     String localizacion;
-    String departamento1;
-    String departamento2;
-    String departamento3;
+    Departamento departamento;
 
     Sede(){}
 
-    Sede(String localizacion, String departamento1, String departamento2, String departamento3){
+    Sede(String localizacion, Departamento departamento,Departamento departamento2,Departamento departamento3){
         this.localizacion = localizacion;
-        this.departamento1 = departamento1;
-        this.departamento2 = departamento2;
-        this.departamento3 = departamento3;
+        this.departamento = departamento;
     }
 
     @Override
     public String toString() {
         return "Sede{" +
-                "Localización=' " + localizacion + '\'' +
-                ", Departamento 1=' " + departamento1 + '\'' +
-                ", Depatramento 2=' " + departamento2 + '\'' +
-                ", Departamento 3=' " + departamento3 + '\'' +
+                "localizacion='" + localizacion + '\'' +
+                ", departamento=" + departamento +
                 '}';
     }
 }

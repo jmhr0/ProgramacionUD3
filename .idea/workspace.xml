@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Act 9.3">
+      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/Departamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej2/TorresHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut6/practica6/ej2/TorresHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/CompañiaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/CompanniaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/Sede.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/Sede.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
