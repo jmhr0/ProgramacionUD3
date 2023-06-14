@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Act 9.3">
-      <change afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/CompañiaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/CompanniaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/Sede.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBasica/src/org/ieslosremedios/daw1/prog/ut4/arrays/practica4/act6/Sede.java" afterDir="false" />
-    </list>
+    <list default="true" id="bdca7573-00f4-46bd-9a71-8965070dc94e" name="Changes" comment="Practica 4 y 6 bien" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -276,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685207209151</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Practica 4 y 6 bien">
+      <created>1686720993911</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686720993911</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,7 +293,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadir UML" />
     <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias" />
     <MESSAGE value="Clase 01/12/2022 añade ejemplo y ejercicio de herencias pt.2" />
     <MESSAGE value="Clase 01/12/2022 añade print de persona mediante metodos en clase persona" />
@@ -316,6 +317,7 @@
     <MESSAGE value="Act 7.4" />
     <MESSAGE value="Act 9.2" />
     <MESSAGE value="Act 9.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Act 9.3" />
+    <MESSAGE value="Practica 4 y 6 bien" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica 4 y 6 bien" />
   </component>
 </project>
